@@ -29,7 +29,7 @@ Include **angular-indexed-db.js** in your application.
 Import the the `AngularIndexedDB` class as a dependency:
 
 ```js
-import {AngularIndexedDB} from 'angular-indexed-db';
+import {AngularIndexedDB} from '@meerasolution/angular-indexed-db';
 ```
 
 ### AngularIndexedDB service
