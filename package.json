@@ -1,11 +1,19 @@
 {
-  "name": "angular-indexed-db",
+  "name": "@meerasolution/angular-indexed-db",
   "version": "1.0.0",
   "description": "angular-indexed-db is a library that wraps indexeddb database in an Angular 12 service",
+  "author": {
+    "name": "Krishnakant Madhpuriya",
+    "email": "kkmadhpuriya@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/meerasolution/angular-indexed-db.git"
   },
+  "bugs": {
+    "url": "https://github.com/meerasolution/angular-indexed-db/issues"
+  },
+  "homepage": "https://github.com/meerasolution/angular-indexed-db#home",
   "files": [
     "angular-indexed-db.ts",
     "angular-indexed-db.d.ts",

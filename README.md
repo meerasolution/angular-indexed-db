@@ -10,9 +10,13 @@ Installation
 You can choose your preferred method of installation:
 * Download from npm:
     ```
-    npm install angular-indexed-db
+    npm install @meerasolution/angular-indexed-db
     ```
-* Download from github: [angular-indexed-db.min.js](https://github.com/gilf/angular-indexed-db/blob/master/angular-indexed-db.min.js)
+* Download from yarn:
+    ```
+    yarn add @meerasolution/angular-indexed-db
+    ```
+* Download from github: [angular-indexed-db.min.js](https://github.com/meerasolution/angular-indexed-db/blob/master/angular-indexed-db.min.js)
 
 Usage
 -----
