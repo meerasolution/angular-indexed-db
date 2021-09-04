@@ -1,6 +1,6 @@
 {
   "name": "@meerasolution/angular-indexed-db",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "angular-indexed-db is a library that wraps indexeddb database in an Angular 12 service",
   "author": {
     "name": "Krishnakant Madhpuriya",
