@@ -4,8 +4,6 @@ angular-indexed-db
 angular-indexed-db is a service that wraps IndexedDB database in an Angular service.
 It exposes very simple promises API to enable the usage of IndexedDB without most of it plumbing.
 
-Copyright (C) 2017, Gil Fink <gil@sparxys.com>
-
 Installation
 ------------
 
