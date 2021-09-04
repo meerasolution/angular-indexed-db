@@ -1,0 +1,58 @@
+{
+  "name": "angular-indexed-db",
+  "version": "1.0.0",
+  "description": "angular-indexed-db is a library that wraps indexeddb database in an Angular 12 service",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meerasolution/angular-indexed-db.git"
+  },
+  "files": [
+    "angular-indexed-db.ts",
+    "angular-indexed-db.d.ts",
+    "angular-indexed-db.js",
+    "angular-indexed-db.js.map",
+    "angular-indexed-db.min.js",
+    "angular-indexed-db.min.js.map",
+    "angular-indexed-db.metadata.json",
+    "index.ts",
+    "index.d.ts",
+    "index.js",
+    "index.js.map",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "tsc": "node_modules/.bin/ngc",
+    "tsc:w": "tsc -w",
+    "lite": "lite-server",
+    "start": "concurrent \"npm run tsc:w\" \"npm run lite\" ",
+    "build": "node_modules/.bin/grunt build"
+  },
+  "license": "MIT",
+  "keywords": [
+    "Angular",
+    "indexedDB",
+    "ng",
+    "service"
+  ],
+  "dependencies": {
+    "@angular/core": ">=12.2.4"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "devDependencies": {
+    "@angular/compiler": "^4.3.1",
+    "@angular/compiler-cli": "^2.4.0",
+    "concurrently": "^3.5.0",
+    "lite-server": "^1.3.4",
+    "typescript": "^2.4.2",
+    "grunt": "0.4.5",
+    "grunt-cli": "0.1.13",
+    "grunt-contrib-cssmin": "0.14.0",
+    "grunt-contrib-jshint": "0.11.3",
+    "grunt-contrib-uglify": "0.9.2",
+    "grunt-ngdocs": "0.2.9",
+    "load-grunt-tasks": "3.3.0"
+  }
+}

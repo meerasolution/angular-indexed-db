@@ -1,0 +1,30 @@
+[
+    {
+        "__symbolic": "module",
+        "version": 3,
+        "metadata": {},
+        "exports": [
+            {
+                "from": "./angular-indexed-db",
+                "export": [
+                    "AngularIndexedDB",
+                    "IndexDetails"
+                ]
+            }
+        ]
+    },
+    {
+        "__symbolic": "module",
+        "version": 1,
+        "metadata": {},
+        "exports": [
+            {
+                "from": "./angular-indexed-db",
+                "export": [
+                    "AngularIndexedDB",
+                    "IndexDetails"
+                ]
+            }
+        ]
+    }
+]
